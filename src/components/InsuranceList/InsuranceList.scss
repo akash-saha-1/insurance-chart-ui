@@ -1,0 +1,44 @@
+.table {
+  margin: 20px 5px 30px 0;
+  border: 1px solid black;
+  th {
+    min-width: 70px;
+    color: midnightblue;
+  }
+  th,
+  td {
+    border: 1px solid darkgray;
+    text-align: center;
+    padding: 0.25rem;
+  }
+  th {
+    font-size: 14px;
+  }
+  td {
+    font-size: 13px;
+  }
+}
+.pagination {
+  margin-bottom: 100px;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.prev-btn,
+.next-btn {
+  margin-right: 20px;
+  &.disable {
+    cursor: not-allowed;
+    background-color: darkgray;
+    border-color: darkgray;
+  }
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: cornsilk;
+}
+
+.search-btn {
+  background-color: white;
+  color: black;
+}

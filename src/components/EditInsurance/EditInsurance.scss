@@ -1,0 +1,15 @@
+.error {
+  color: red;
+}
+.form-wrapper {
+  margin-bottom: 80px;
+  form {
+    text-align: center;
+    button {
+      margin-top: 20px;
+    }
+  }
+  .red-border {
+    border: 2px solid red;
+  }
+}

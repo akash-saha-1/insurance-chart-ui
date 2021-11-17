@@ -1,0 +1,20 @@
+.nav-item.active a {
+  font-weight: 700;
+  color: white !important;
+}
+nav {
+  margin-bottom: 30px;
+}
+.navbar {
+  background-color: royalblue !important;
+}
+.navbar-light {
+  .navbar-brand {
+    color: #dddddd;
+  }
+  .navbar-nav {
+    .nav-link {
+      color: #dddddd;
+    }
+  }
+}
