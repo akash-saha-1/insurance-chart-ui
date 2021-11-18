@@ -181,7 +181,7 @@ const InsuranceList = () => {
             disabled={pageId < 1 || pageId >= count ? true : false}
             onClick={showNext}
           >
-            Next{"> "}
+            Next{" >"}
           </button>
           <button
             type="button"
@@ -191,7 +191,7 @@ const InsuranceList = () => {
             disabled={pageId < 1 || pageId >= count ? true : false}
             onClick={showLast}
           >
-            Last{">> "}
+            Last{" >>"}
           </button>
         </div>
       )}
