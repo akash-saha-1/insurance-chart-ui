@@ -59,7 +59,7 @@ const Header = () => {
               to="/graph"
               onClick={() => setChange(Math.random())}
             >
-              Graph
+              Charts
             </Link>
           </li>
           <li className={`nav-item ${active === 3 ? "active" : ""}`}>
