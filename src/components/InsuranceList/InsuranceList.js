@@ -65,9 +65,10 @@ const InsuranceList = () => {
   };
 
   const showNext = async () => {
-    history.push(`/insurance-list?page=${pageId + 1}`);
+    let pageNo = +pageId + 1;
+    history.push(`/insurance-list?page=${pageNo}`);
     setLoading(true);
-    let res = await axios.get(`${serverUrl}/page/${pageId + 1}`);
+    let res = await axios.get(`${serverUrl}/page/${pageNo}`);
     setCount(res.data.count);
     setData(res.data.data);
     if (res.data.data) {
