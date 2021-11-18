@@ -9,11 +9,16 @@ const Header = () => {
   const history = useHistory();
 
   useEffect(() => {
+    console.log(0);
+    console.log(window.location.href);
     if (window.location.href.indexOf("/insurance") > -1) {
+      console.log(1);
       setActive(1);
     } else if (window.location.href.indexOf("/graph") > -1) {
       setActive(2);
+      console.log(2);
     } else {
+      console.log(3);
       setActive(3);
     }
   }, [change]);
